@@ -22,6 +22,7 @@ public class GuideActivity extends Activity {
 		WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_guide);
 		guide_RL = (RelativeLayout) findViewById(R.id.guide_RL);
+		//////
 		guide_RL.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
